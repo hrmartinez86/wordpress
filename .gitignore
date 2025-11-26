@@ -1,0 +1,35 @@
+# Archivos core de WordPress - NO versionar
+/wp-admin/
+/wp-includes/
+/.htaccess
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/index.php
+
+# Configuración
+/wp-config.php
+
+# Contenido subido
+/wp-content/uploads/
+/wp-content/cache/
+
+# Logs y temporales
+*.log
+*.tmp
+.DS_Store
+
+# Docker volume
+/db_data/
