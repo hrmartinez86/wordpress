@@ -19,7 +19,7 @@ services:
       - database 
     image: wordpress:latest
     ports: 
-      - '8000:80'
+      - '8090:80'
     restart: always
     volumes: 
       - './:/var/www/html'
